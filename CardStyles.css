@@ -1,0 +1,80 @@
+/**
+ * Card Style Index:
+ *
+ *  1. General
+ *  2. Font
+ *  3. Parts
+ */
+
+/* ==========================================================================
+   1. General
+   ========================================================================== */
+
+body {
+  font: normal 1rem "Open Sans", arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+/* ==========================================================================
+   2. Font
+   ========================================================================== */
+
+.text-italic {
+  font-style: italic;
+}
+
+/* ==========================================================================
+   3. COMPONENTS
+   ========================================================================== */
+.image {
+  height: 250px;
+  width: 300px;
+  border: 10px round;
+  border-radius: 5px;
+  border-image: url(border.png) 50 round;
+}
+
+.card {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.875rem;
+}
+
+.card-image {
+  padding: 5px 0;
+}
+
+.card-details {
+  margin: 0;
+  padding: 10px;
+  font-size: 0.8rem;
+
+}
+
+.card-content {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.card-details .item {
+  font-style: italic;
+  list-style-type: none;
+}
+
+.card-details .label{
+  font-weight: bold;
+  font-style: normal;
+}
